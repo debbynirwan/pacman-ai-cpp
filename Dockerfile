@@ -1,7 +1,6 @@
 FROM ubuntu:20.04
 LABEL maintainer="Debby Nirwan"
 ENV DEBIAN_FRONTEND noninteractive
-ENV TZ "Asia/Singapore"
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
