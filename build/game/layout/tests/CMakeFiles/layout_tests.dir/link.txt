@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/layout_tests.dir/layout_tests_autogen/mocs_compilation.cpp.o CMakeFiles/layout_tests.dir/layout_tests.cpp.o  -o layout_tests  -lgtest ../liblayout.a ../../../utilities/libutilities.a -lpthread 

@@ -1,0 +1,77 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"sim_manager/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "game::@0c53ff3c4131f9152fd3"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "layout::@26ab6345f43e83264df2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "utilities::@d3b0ab015cfc9b043577"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "display::@e649ce710e413ec19d78"
+		}
+	],
+	"id" : "sim_manager_autogen::@5ec8220977f28a836ef2",
+	"isGeneratorProvided" : true,
+	"name" : "sim_manager_autogen",
+	"paths" : 
+	{
+		"build" : "sim_manager",
+		"source" : "sim_manager"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/sim_manager/CMakeFiles/sim_manager_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/sim_manager/CMakeFiles/sim_manager_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

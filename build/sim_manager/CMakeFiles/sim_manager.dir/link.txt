@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsim_manager.a  CMakeFiles/sim_manager.dir/sim_manager_autogen/mocs_compilation.cpp.o CMakeFiles/sim_manager.dir/sim_manager.cpp.o
+/usr/bin/ranlib libsim_manager.a

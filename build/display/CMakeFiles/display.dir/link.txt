@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdisplay.a  CMakeFiles/display.dir/display_autogen/mocs_compilation.cpp.o CMakeFiles/display.dir/display.cpp.o CMakeFiles/display.dir/gui.cpp.o CMakeFiles/display.dir/gui_pacman.cpp.o CMakeFiles/display.dir/gui_ghost.cpp.o
+/usr/bin/ranlib libdisplay.a

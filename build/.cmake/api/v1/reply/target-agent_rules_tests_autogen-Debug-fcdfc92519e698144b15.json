@@ -1,0 +1,73 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"game/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "game::@0c53ff3c4131f9152fd3"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "layout::@26ab6345f43e83264df2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "utilities::@d3b0ab015cfc9b043577"
+		}
+	],
+	"id" : "agent_rules_tests_autogen::@81ecc9f9dfed16204f6b",
+	"isGeneratorProvided" : true,
+	"name" : "agent_rules_tests_autogen",
+	"paths" : 
+	{
+		"build" : "game/tests",
+		"source" : "game/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/game/tests/CMakeFiles/agent_rules_tests_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/game/tests/CMakeFiles/agent_rules_tests_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

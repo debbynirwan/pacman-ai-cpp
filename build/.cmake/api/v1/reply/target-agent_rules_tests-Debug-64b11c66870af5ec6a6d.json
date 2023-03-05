@@ -1,0 +1,198 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "game/tests/agent_rules_tests"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"game/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/debby/Workspace-HDD/Workspace/pacman-ai-cpp/build/game/tests/agent_rules_tests_autogen/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/debby/Workspace-HDD/Workspace/pacman-ai-cpp/game/layout"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/debby/Workspace-HDD/Workspace/pacman-ai-cpp/utilities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/debby/Workspace-HDD/Workspace/pacman-ai-cpp/game"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "game::@0c53ff3c4131f9152fd3"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "layout::@26ab6345f43e83264df2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "utilities::@d3b0ab015cfc9b043577"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "agent_rules_tests_autogen::@81ecc9f9dfed16204f6b"
+		}
+	],
+	"id" : "agent_rules_tests::@81ecc9f9dfed16204f6b",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lgtest",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../layout/liblayout.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../utilities/libutilities.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libgame.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../agent/libagent.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libgame.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../agent/libagent.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lyaml-cpp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../layout/liblayout.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../utilities/libutilities.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "agent_rules_tests",
+	"nameOnDisk" : "agent_rules_tests",
+	"paths" : 
+	{
+		"build" : "game/tests",
+		"source" : "game/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/game/tests/agent_rules_tests_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "game/tests/agent_rules_tests.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

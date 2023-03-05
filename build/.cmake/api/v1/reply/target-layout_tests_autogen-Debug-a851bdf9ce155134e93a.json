@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"game/layout/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "layout::@26ab6345f43e83264df2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "utilities::@d3b0ab015cfc9b043577"
+		}
+	],
+	"id" : "layout_tests_autogen::@fb21a7c43642769c39ba",
+	"isGeneratorProvided" : true,
+	"name" : "layout_tests_autogen",
+	"paths" : 
+	{
+		"build" : "game/layout/tests",
+		"source" : "game/layout/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/game/layout/tests/CMakeFiles/layout_tests_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/game/layout/tests/CMakeFiles/layout_tests_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
