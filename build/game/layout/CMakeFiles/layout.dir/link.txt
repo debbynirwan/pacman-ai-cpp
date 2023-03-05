@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblayout.a  CMakeFiles/layout.dir/layout_autogen/mocs_compilation.cpp.o CMakeFiles/layout.dir/layout.cpp.o
-/usr/bin/ranlib liblayout.a

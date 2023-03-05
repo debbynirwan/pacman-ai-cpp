@@ -1,2 +1,0 @@
-/usr/bin/ar qc libagent.a  CMakeFiles/agent.dir/agent_autogen/mocs_compilation.cpp.o CMakeFiles/agent.dir/agent_utils.cpp.o CMakeFiles/agent.dir/pacman_factory.cpp.o CMakeFiles/agent.dir/random_ghost_impl.cpp.o CMakeFiles/agent.dir/random_pacman_impl.cpp.o
-/usr/bin/ranlib libagent.a
