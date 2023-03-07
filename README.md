@@ -10,9 +10,9 @@ A more important purpose is that this framework can be used to learn AI Planning
 ## Related project
 This project is inspired by [The Pac-Man Projects](http://ai.berkeley.edu/project_overview.html).
 
-# Dependencies and Installation (Tested on Ubuntu 20.04)
+# How to build and run the application
 ## Dependencies
-To build the project you will need to install the dependencies below:
+To build the project you have to install the dependencies below:
 * Compiler that supports C++17
 * CMake
 * clang-tidy (for linter)
@@ -21,16 +21,18 @@ To build the project you will need to install the dependencies below:
 * spdlog (for logging)
 * yaml-cpp (for configs)
 
+## Use docker container
 The easist way for you would be to use docker container to build and run pacman-ai-cpp app.
-After installing docker on your system you can execute the following to build docker image:
+After installing docker on your system you can execute the following command to build docker image:
 
     docker build --tag pacman-ai-cpp:latest --file Dockerfile . 
 
-To build the software, start your container at the root of the project:
+### Starting container
+To build the software, start your container at the root of the project by executing ```./setup.sh```.
+It supports both Linux and Mac OS.
 
-    xhost +local:
-    docker run --rm -it --mount type=bind,src=${PWD},dst=/work --env DISPLAY=$DISPLAY \
-           --volume /tmp/.X11-unix/:/tmp/.X11-unix:ro --network host --gpus all pacman-ai-cpp:latest
+#### Using Docker container on Mac OS
+If you use the docker container on Mac OS, you have to install [xquartz](https://www.xquartz.org/) before executing ```./setup.sh```. It is required to run GUI applications on the container.
 
 To run in the container's shell, you can execute the following:
 
@@ -38,8 +40,9 @@ To run in the container's shell, you can execute the following:
 
 If you modify configs or layout files, you have to execute ```cmake ..``` to copy them into build directory.
 
-## Installation
-To compile and install the library, from the root directory, execute:
+
+## Build
+To build the application, from the root directory, execute:
 
      mkdir build && cd build
      cmake ..
