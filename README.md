@@ -1,9 +1,9 @@
 # pacman-ai-cpp
 Pac-man AI Framework written in c++17.
 
-This framework can be used to evaluate AI Planning algorithms. What you need to do is write your pac-man implementation and provide a layout file.
+This framework can be used to evaluate AI Planning algorithms. All you need to do is write your pac-man implementation and provide a layout file.
 
-A more important purpose is that this framework can be used to learn AI Planning algorithms by writing their implementation in C++.
+More importantly, this framework can be used to learn AI Planning algorithms by writing their implementation in C++.
 
 ![pacman-ai-cpp](main/resources/pacman_screenshot.png)
 
@@ -12,7 +12,7 @@ This project is inspired by [The Pac-Man Projects](http://ai.berkeley.edu/projec
 
 # How to build and run the application
 ## Dependencies
-To build the project you have to install the dependencies below:
+To build the project you need to install the following dependencies:
 * Compiler that supports C++17
 * CMake
 * clang-tidy (for linter)
@@ -22,8 +22,8 @@ To build the project you have to install the dependencies below:
 * yaml-cpp (for configs)
 
 ## Use docker container
-The easist way for you would be to use docker container to build and run pacman-ai-cpp app.
-After installing docker on your system you can execute the following command to build docker image:
+The easiest way for you is to use the docker container to build and run the pacman-ai-cpp application.
+After installing docker on your system, you can run the following command to build the docker image:
 
     docker build --tag pacman-ai-cpp:latest --file Dockerfile . 
 
@@ -32,13 +32,13 @@ To build the software, start your container at the root of the project by execut
 It supports both Linux and Mac OS.
 
 #### Using Docker container on Mac OS
-If you use the docker container on Mac OS, you have to install [xquartz](https://www.xquartz.org/) before executing ```./setup.sh```. It is required to run GUI applications on the container.
+If you are using the docker container on Mac OS, you must install [xquartz](https://www.xquartz.org/) before executing ```./setup.sh```. It is required to run GUI applications on containers.
 
-To run in the container's shell, you can execute the following:
+To run in a container shell, you can execute the following:
 
     ./main/pacman -l ./layout_files/medium_5_ghosts.lay -p random
 
-If you modify configs or layout files, you have to execute ```cmake ..``` to copy them into build directory.
+If you modify config or layout files, you have to execute ```cmake ..``` to copy them to the build directory.
 
 
 ## Build
