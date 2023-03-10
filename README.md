@@ -61,7 +61,7 @@ random is your pac-man algorithm's name.
 You can follow the examples to write your own pac-man implementation.
 
 # Documentation
-If you're interested in understanding the details you can read the blog post [here]().
+If you're interested in understanding the details you can read the blog post [here](https://medium.com/better-programming/pac-man-ai-cpp-a-software-framework-c44b2e2d293).
 
 # Issues
 Please report issues if you found bugs or raise a Pull Request.
